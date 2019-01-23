@@ -1,9 +1,10 @@
+@import "../../scss/config";
 $primary-color: #cecece;
 $shadow-color: rgba(0, 0, 0, 0.3);
 $nav-size: 40px;
 
 .jumbotron {
-  background-image: url("../../img/bg500.jpeg");
+  background-image: url("https://raw.githubusercontent.com/kurniawan2805/portfolio-react/master/src/img/bg500.jpeg");
   background-repeat: no-repeat;
   background-position: center;
   background-attachment: fixed;
@@ -19,22 +20,15 @@ $nav-size: 40px;
   justify-content: center;
   align-items: center;
 
-  // &::after {
-  //   content: "";
-  //   height: 100%;
-  //   width: 100%;
-  //   position: absolute;
-  //   top: 0%;
-  //   left: 0;
-  //   // background: $shadow-color;
-  // }
-
   h1,
   p.lead {
     color: $primary-color;
     text-shadow: -2px 2px 5px $shadow-color;
     z-index: 2;
     background: $shadow-color;
+  }
+  p.lead {
+    font-size: 1rem;
   }
 }
 
@@ -47,9 +41,17 @@ $nav-size: 40px;
 }
 
 /* responsive */
-@media only screen and (min-width: 728px) {
+// @media only screen and (min-width: 728px) {
+@include mediaMd {
   .jumbotron {
-    background-image: url("../../img/bg1000.jpeg");
+    background-image: url("https://raw.githubusercontent.com/kurniawan2805/portfolio-react/master/src/img/bg1000.jpeg");
+    align-items: flex-start;
+  }
+}
+
+@include mediaLg {
+  .jumbotron {
+    background-image: url("https://raw.githubusercontent.com/kurniawan2805/portfolio-react/master/src/img/bg2000.jpeg");
     align-items: flex-start;
   }
 }

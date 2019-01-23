@@ -15,8 +15,8 @@ export class App extends Component {
         <div className="App">
           <Navbar />
           <Route exact path="/" component={Landing} />
-          <Route exact path="/projects" component={Projects} />
-          <Route exact path="/about" component={About} />
+          <Route path="/projects" component={Projects} />
+          <Route path="/about" component={About} />
           <Footer />
         </div>
       </Router>

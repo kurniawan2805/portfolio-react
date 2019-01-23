@@ -1,29 +1,39 @@
 import React, { Component } from "react";
 
 import "./Projects.scss";
+import Project from "./Project";
 
 export class Projects extends Component {
   state = {
-    project: []
+    projects: []
   };
+  async componentDidMount() {
+    const url =
+      "https://raw.githubusercontent.com/kurniawan2805/portfolio-react/master/src/components/projects/data.json";
+    const data = await fetch(url);
+    const jsonData = await data.json();
+
+    this.setState({
+      projects: jsonData.data
+    });
+  }
+
   render() {
+    // console.log(this.state.project);
+    const dataProject = this.state.projects.map(project => (
+      <Project
+        key={project.id}
+        title={project.title}
+        desc={project.desc}
+        url={project.url}
+        imgUrl={project.imgUrl}
+      />
+    ));
     return (
-      <React.Fragment>
-        <div className="card">
-          <img
-            className="card-img-top"
-            src={require("../../img/ac.png")}
-            alt="Card image"
-          />
-          <div className="card-body">
-            <h4 className="card-title">John Doe</h4>
-            <p className="card-text">Some example text.</p>
-            <a href="#" className="btn btn-primary">
-              See Profile
-            </a>
-          </div>
-        </div>
-      </React.Fragment>
+      <section className="projects">
+        <h4>Some work I play with...</h4>
+        {dataProject}
+      </section>
     );
   }
 }
