@@ -1,5 +1,5 @@
 @import "../../scss/config";
-.projects {
+.projects-wraper {
   display: flex;
   flex-flow: column wrap;
   justify-content: space-around;
@@ -31,8 +31,9 @@
     }
   }
 }
+
 @include mediaMd {
-  .projects {
+  .projects-wraper {
     flex-flow: row wrap;
     align-items: stretch;
 
@@ -46,7 +47,7 @@
 }
 
 @include mediaLg {
-  .projects {
+  .projects-wraper {
     // flex-flow: row nowrap;
 
     .card {

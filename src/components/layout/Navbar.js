@@ -23,7 +23,7 @@ export class Navbar extends Component {
           <span className="navbar-toggler-icon" />
         </button>
         <div
-          className="collapse navbar-collapse justify-content-center"
+          className="collapse navbar-collapse justify-content-end"
           id="navbarNav"
         >
           <ul className="navbar-nav m-0 p-0">

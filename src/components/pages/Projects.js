@@ -31,8 +31,8 @@ export class Projects extends Component {
     ));
     return (
       <section className="projects">
-        <h4>Some work I play with...</h4>
-        {dataProject}
+        <h4 className="text-center">Some works I play with...</h4>
+        <div className="container projects-wraper">{dataProject}</div>
       </section>
     );
   }
