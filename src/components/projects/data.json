@@ -1,21 +1,25 @@
 {
   "data": [
     {
-      "title": "work1",
-      "desc": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quasi laboriosam veniam quas repudiandae magni quisquam temporibus inventore labore modi unde?",
+      "id": 0,
+      "title": "Simple Line Follower Book Tutorial",
+      "desc": "Contributed in wrting a published documentation tutorial: Kilat Jago Membuat Robot, Dunia Komputer Publishers, Jakarta, 2012",
       "url": "https://xyz.com"
     },
     {
-      "title": "work1",
-      "desc": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quasi laboriosam veniam quas repudiandae magni quisquam temporibus inventore labore modi unde?",
+      "id": 1,
+      "title": "Centralize AC Remote Control",
+      "desc": "Develop a remote control to an old-type centralize air conditioner using Arduino.",
       "url": "https://xyz.com"
     },
     {
-      "title": "work1",
-      "desc": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quasi laboriosam veniam quas repudiandae magni quisquam temporibus inventore labore modi unde?",
+      "id": 2,
+      "title": "Front End Developer",
+      "desc": "Not yet. But, I will try to come with my simple project from my experiment or following a tutorial.",
       "url": "https://xyz.com"
     },
     {
+      "id": 3,
       "title": "work1",
       "desc": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quasi laboriosam veniam quas repudiandae magni quisquam temporibus inventore labore modi unde?",
       "url": "https://xyz.com"
