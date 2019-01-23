@@ -4,18 +4,21 @@
       "id": 0,
       "title": "Simple Line Follower Book Tutorial",
       "desc": "Contributed in wrting a published documentation tutorial: Jurus Kilat Jago Membuat Robot, Dunia Komputer Publishers, Jakarta, 2012",
+      "imgUrl": "https://raw.githubusercontent.com/kurniawan2805/portfolio-react/master/src/img/book.png",
       "url": ""
     },
     {
       "id": 1,
       "title": "Centralize AC Remote Control",
       "desc": "Develop a remote control to an old-type centralize air conditioner using Arduino.",
+      "imgUrl": "https://github.com/kurniawan2805/portfolio-react/blob/master/src/img/ac.png",
       "url": ""
     },
     {
       "id": 2,
       "title": "Front End Developer",
       "desc": "Not yet. But, I will try to come with my simple project from my experiment or following a tutorial.",
+      "imgUrl": "https://raw.githubusercontent.com/kurniawan2805/portfolio-react/master/src/img/html5.png",
       "url": "https://xyz.com"
     },
     {
