@@ -34,6 +34,13 @@
       "desc": "Build clone of hacker-news using ReactJS, learn to use axios to fetch sequential data",
       "imgUrl": "https://raw.githubusercontent.com/kurniawan2805/portfolio-react/master/src/img/react.png",
       "url": "https://0p7jw848ow.codesandbox.io/"
+    },
+    {
+      "id": 5,
+      "title": "Podomoro",
+      "desc": "Build simple app in react about podomoro technique.",
+      "imgUrl": "https://proxy.duckduckgo.com/iu/?u=https%3A%2F%2Ftimstout.files.wordpress.com%2F2011%2F05%2Fpomodoro-technique.png&f=1",
+      "url": "https://0p7jw848ow.codesandbox.io/"
     }
   ]
 }
